@@ -98,3 +98,31 @@ button {
 button:hover {
     background-color: #555;
 }
+.content-container {
+    display: flex;
+    gap: 20px;
+}
+
+#introduction, #sidebar {
+    flex: 1;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#introduction {
+    /* Additional styling for the introduction section if needed */
+}
+
+#sidebar {
+    /* Additional styling for the sidebar section */
+    max-width: 300px;
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+}

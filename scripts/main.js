@@ -5,10 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const courses = [
-    { code: 'WDD230', name: 'Web Development', completed: true },
-    { code: 'CSE121', name: 'Introduction to Programming', completed: false },
-    { code: 'WDD331', name: 'Advanced CSS', completed: true },
-    { code: 'CSE122', name: 'Data Structures', completed: false }
+    { code: 'CSE 110', name: 'Intro to Programming', completed: true },
+    { code: 'WDD 130', name: 'Web Fundamentals', completed: true },
+    { code: 'CSE 111', name: 'Programming with Functions', completed: true },
+    { code: 'CSE 210', name: 'Programming with Classes', completed: true },
+    { code: 'WDD 131', name: 'Dynamic Web Fundamentals', completed: true },
+    { code: 'WDD 231', name: 'Web Frontend Development I', completed: false }
 ];
 
 function displayCourses(filter) {
@@ -30,3 +32,6 @@ function displayCourses(filter) {
 function filterCourses(filter) {
     displayCourses(filter);
 }
+
+// Initialize with all courses
+displayCourses('all');

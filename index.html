@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="WDD231 Home Page">
-    <meta name="author" content="Your Name">
+    <meta name="author" content="Alessandro Cipriano">
     <title>WDD231 Home</title>
     <link href="styles/style.css" rel="stylesheet">
     <script src="scripts/main.js" defer></script>
 </head>
 <body>
 <header>
-    <h1>Welcome to WDD231</h1>
+    <h1>Alessandro Cipriano</h1>
     <nav>
-        <a href="https://www.linkedin.com/in/alessandro-cipriano-931555168/">LinkedIn</a>
-        <a href="https://byupw.instructure.com/">Canvas</a>
-        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Favorite Scripture</a>
-        <a href="#">Final Project</a>
+        <a href="index.html">Home</a>
+        <a href="#">Chamber</a>
+        <a href="https://github.com/alyxx3ds">Github profile</a>
+        <a href="#">Linkdin profile</a>
     </nav>
 </header>
 <main>
+    <div class="content-container">
+        <section id="introduction">
+            <h2>Coursework</h2>
+            <ul>
+                <li> </li>
+                <li> </li>
+                <li> </li>
+            </ul>
+        </section>
+
+        <section id="sidebar">
+            <h2>Kalandula Falls,Angola</h2>
+            <img src="images/quedas.jpg">
+            <p>Kalandula Falls, located in the Malanje Province of Angola, is one of Africa's largest waterfalls. Cascading from a height of approximately 105 meters and spanning over 400 meters in width, these majestic falls are formed by the Lucala River.</p>
+        </section>
+    </div>
+
     <section>
-        <h2>Introduction</h2>
-        <p>Welcome to the WDD231 home page. This is a placeholder for the introduction section.</p>
-    </section>
-    <section>
-        <h2>Courses</h2>
+        <h2>Web and computer programming certificate</h2>
         <div id="courseList"></div>
         <div>
             <button onclick="filterCourses('all')">All Courses</button>
@@ -34,8 +49,9 @@
         </div>
     </section>
 </main>
+
 <footer>
-    <p>&copy; <span id="currentyear"></span> Your Name, Your Country</p>
+    <p>&copy; <span id="currentyear"></span> Alessandro Cipriano, Angola</p>
     <p id="lastModified"></p>
 </footer>
 </body>
