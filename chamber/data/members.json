@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Maria's Boutique",
+    "address": "123 Main Street, Luanda",
+    "phone": "+244 123 456 789",
+    "website": "http://mariasboutique.com",
+    "image": "images/marias-boutique.jpg",
+    "membership_level": 1
+  },
+  {
+    "name": "Luanda Tech Solutions",
+    "address": "456 Tech Street, Luanda",
+    "phone": "+244 987 654 321",
+    "website": "http://luandatech.com",
+    "image": "images/luanda-tech.jpg",
+    "membership_level": 3
+  },
+  {
+    "name": "Silver Motors",
+    "address": "789 Car Street, Luanda",
+    "phone": "+244 321 654 987",
+    "website": "http://silvermotors.com",
+    "image": "images/silver-motors.jpg",
+    "membership_level": 2
+  },
+  {
+    "name": "Luanda Arts Gallery",
+    "address": "101 Art Avenue, Luanda",
+    "phone": "+244 654 321 789",
+    "website": "http://luandaarts.com",
+    "image": "images/luanda-arts.jpg",
+    "membership_level": 1
+  },
+  {
+    "name": "Coffee Haven",
+    "address": "202 Coffee Street, Luanda",
+    "phone": "+244 321 987 654",
+    "website": "http://coffeehaven.com",
+    "image": "images/coffee-haven.jpg",
+    "membership_level": 1
+  },
+  {
+    "name": "Real Estate Pros",
+    "address": "303 Real Estate Road, Luanda",
+    "phone": "+244 432 123 456",
+    "website": "http://realestatepros.com",
+    "image": "images/real-estate.jpg",
+    "membership_level": 2
+  },
+  {
+    "name": "Café Delights",
+    "address": "404 Bakery Lane, Luanda",
+    "phone": "+244 555 666 777",
+    "website": "http://cafedelights.com",
+    "image": "images/cafe-delights.jpg",
+    "membership_level": 3
+  }
+]
