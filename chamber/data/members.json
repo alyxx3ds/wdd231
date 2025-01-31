@@ -4,7 +4,7 @@
     "address": "123 Main Street, Luanda",
     "phone": "+244 123 456 789",
     "website": "http://mariasboutique.com",
-    "image": "/chamber/images/boutique.jpg",
+    "image": "../chamber/images/boutique.jpg",
     "membership_level": 1
   },
   {
@@ -12,7 +12,7 @@
     "address": "456 Tech Street, Luanda",
     "phone": "+244 987 654 321",
     "website": "http://luandatech.com",
-    "image": "/chamber/images/techstore.webp",
+    "image": "../chamber/images/techstore.webp",
     "membership_level": 3
   },
   {
@@ -20,7 +20,7 @@
     "address": "789 Car Street, Luanda",
     "phone": "+244 321 654 987",
     "website": "http://silvermotors.com",
-    "image": "/chamber/images/motor.jpg",
+    "image": "../chamber/images/motor.jpg",
     "membership_level": 2
   },
   {
@@ -28,7 +28,7 @@
     "address": "101 Art Avenue, Luanda",
     "phone": "+244 654 321 789",
     "website": "http://luandaarts.com",
-    "image": "/chamber/images/art.jpg",
+    "image": "../chamber/images/art.jpg",
     "membership_level": 1
   },
   {
@@ -36,7 +36,7 @@
     "address": "202 Coffee Street, Luanda",
     "phone": "+244 321 987 654",
     "website": "http://coffeehaven.com",
-    "image": "/chamber/images/coffe.jpg",
+    "image": "../chamber/images/coffe.jpg",
     "membership_level": 1
   },
   {
@@ -44,7 +44,7 @@
     "address": "303 Real Estate Road, Luanda",
     "phone": "+244 432 123 456",
     "website": "http://realestatepros.com",
-    "image": "/chamber/images/real-estate.jpg",
+    "image": "../chamber/images/real-estate.jpg",
     "membership_level": 2
   },
   {
@@ -52,7 +52,7 @@
     "address": "404 Bakery Lane, Luanda",
     "phone": "+244 555 666 777",
     "website": "http://cafedelights.com",
-    "image": "/chamber/images/coffe.jpg",
+    "image": "../chamber/images/coffe.jpg",
     "membership_level": 3
   }
 ]
